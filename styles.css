@@ -1,0 +1,33 @@
+#divTitle {
+    text-align: center;
+}
+
+#divGenerateDie {
+    text-align: center;
+}
+
+#divRollDice {
+    text-align: center;
+}
+
+#divSumDice {
+    text-align: center;
+}
+
+.group-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dice {
+    display: flex;
+    border: solid;
+    border-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 40px;
+}
